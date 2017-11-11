@@ -1,3 +1,5 @@
+import {addNewContact} from '../controllers/api-nodeController'
+
 const routes = (app) =>{
     app.route('/contact')
     .get((req,res,next)=>{
@@ -9,9 +11,7 @@ const routes = (app) =>{
         res.send("GET request successfull!!!");
     })
 
-    .post((req,res)=>{
-        res.send("POST request successfull!!!");
-    });
+    .post(addNewContact);
 
     app.route('/contact/:contactId')
     .put((req,res)=>{
