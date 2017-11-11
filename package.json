@@ -1,0 +1,36 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "RESTful Web APIs with Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amankapur007/api-node.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "api"
+  ],
+  "author": "Aman (Project from lynda)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amankapur007/api-node/issues"
+  },
+  "homepage": "https://github.com/amankapur007/api-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
